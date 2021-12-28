@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/voteee"
+        />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin2">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/ee1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="surname"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/ee2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enrollment no/username"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/ee3"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/ee4"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:textSize="30sp"
+        android:layout_marginTop="30sp"
+        android:textStyle="bold"
+        android:textColor="#f00"
+
+        android:id="@+id/ee5"/>
+
+
+</LinearLayout>
+</FrameLayout>

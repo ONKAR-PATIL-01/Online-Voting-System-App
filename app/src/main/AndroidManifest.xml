@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.qr">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="com.android.hardware.camera.focus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/votee"
+        android:label="online voting"
+        android:roundIcon="@mipmap/votee"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".result1"/>
+        <activity android:name=".admin4" />
+        <activity android:name=".admin3" />
+        <activity android:name=".admin2" />
+        <activity android:name=".user1" />
+        <activity android:name=".admin1" />
+        <activity android:name=".user_login" />
+        <activity android:name=".admin" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="portrait"
+            tools:replace="screenOrientation" />
+    </application>
+
+</manifest>

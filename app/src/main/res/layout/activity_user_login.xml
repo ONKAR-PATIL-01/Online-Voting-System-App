@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:src="@drawable/voteeeee"/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_login">
+    <EditText
+        android:id="@+id/u1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:hint="username"
+        android:inputType="text"
+       />
+
+    <EditText
+        android:id="@+id/p1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:hint="password"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+      />
+
+    <Button
+        android:id="@+id/login1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="420dp"
+android:textSize="59sp"
+        android:text="submit"
+        />
+
+</LinearLayout>
+</FrameLayout>
