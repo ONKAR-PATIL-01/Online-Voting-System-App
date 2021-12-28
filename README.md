@@ -4,6 +4,8 @@ Online Voting System
 
      
 * Functionality
+
+
                   In this project which is online voting system we are generating a 
                   QR code for each candidate  who is standing up for election and the 
                   user will have to go for just scan the QR code for choice candidate from there Smartphone.
