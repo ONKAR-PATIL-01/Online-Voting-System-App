@@ -6,17 +6,19 @@ Online Voting System
 * Functionality
 
 
-                  In this project which is online voting system we are generating a 
-                  QR code for each candidate  who is standing up for election and the 
-                  user will have to go for just scan the QR code for choice candidate from there Smartphone.
-                    We used Firebase database which is a global platform for storing data
-                    so that we can use this app globally we just require the internet                                           
-                    connection for voting using this app For this we are manually giving them a username and password by recognizing their identity for authentication.
-                    We have following features
-                         1. one user can’t vote twice
-                         2. Invalid user can’t log in to the system
-                         3. Your vote will be safely going to candidate u choose.
-                         4. U can see the result-on-result page instantly when admin allows u to see.
+        In this project which is online voting system we are
+        generating a QR code for each candidate  who is standing
+        up for election and the user will have to go for just 
+        scan the QR code to choose  candidate from there Smartphone.
+          We used Firebase database which is a global platform for storing data
+          so that we can use this app globally we just require the internet                                           
+          connection for voting using this app For this we are manually giving
+          them a username and password by recognizing their identity for authentication.
+          We have following features
+               1. one user can’t vote twice
+               2. Invalid user can’t log in to the system
+               3. Your vote will be safely going to candidate u choose.
+               4. U can see the result-on-result page instantly when admin allows u to see.
 
           
 
@@ -37,10 +39,12 @@ Online Voting System
   
   * Characteristics of online voting app
   
-              1.User authentication
-              2.admin authentication
-              3.Firebase Database
-              4.Easy UI
+         1.User authentication
+         2.admin authentication
+         3.Firebase Database
+         4.Easy UI
+         
+         
   * Future  scope
           
          1.Allow multiple authentication methods like Gmail, mobile number, etc.
